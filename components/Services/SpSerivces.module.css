@@ -1,0 +1,256 @@
+.signupnavback{
+    background: linear-gradient(
+      to right,
+      rgba(110,126,177,255),
+      rgba(239,142,195,255)
+    );
+  }
+
+  
+
+  .headfirst{
+    font-family: nsb, sans-serif;
+    font-size: 32px;
+    width: 45%;
+    height: 86px;
+  }
+  .crouselhead{
+    font-family: nsb, sans-serif;
+    font-size: 32px;
+  }
+  .crouselitemhead{
+    font-family: nsb, sans-serif;
+    font-size: 16px;
+    color: #EE1D52;
+  }
+  .crouselbg{
+    background: transparent linear-gradient(251deg, rgba(249, 144, 197, 0.5) 0%, rgba(126, 195, 255, 0.5) 100%) 0% 0% no-repeat padding-box;
+  }
+  .cardprtone{
+    font-family: nsb, sans-serif;
+    font-size: 16px;
+    color: #EE1D52;
+    
+  }
+  .cardprttwo{
+    font-family: bop, sans-serif;
+    font-size: 13px;
+    color: #2D2D2D;
+  }
+  .cardprtthi{
+    font-family: sublb, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+  .cardprtfou{
+    font-family: pm, sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 99px;
+    height: 36px;
+  }
+  .grpcenone{
+    font-family: nsb, sans-serif;
+    font-size: 14px;
+    
+  }
+
+  .grpcentwo{
+    font-family: nsb, sans-serif;
+    font-size: 32px;
+  }
+
+  .grpcentwobtm{
+    font-family: nsb, sans-serif;
+    font-size: 32px;
+    color: #EE1D52;
+  }
+  .paraque{
+    font-family: nsb, sans-serif;
+    font-size: 22px;
+    
+  }
+  .ultimatecolor{
+color: #EE1D52;
+  }
+
+  .bgcolor{
+    background: url(/FemaleFollowlogo.png) 320px 10px no-repeat, url(/femlefolowbck.png) 1145px 435px no-repeat #F3F3F3;
+  }
+  .cardsizes{
+    width: 293px;
+    height: 280px;
+  }
+  .cardsizes:hover{
+    border: 2px solid #1472EC;
+  }
+
+  .paracolorcen{
+    color: #737373;
+    font-family: bop, sans-serif;
+    font-size: 15px;
+  }
+
+  .crouselpara{
+    color: #737373;
+    font-family: pm, sans-serif;
+    font-size: 14px;
+  }
+
+  .crouselbtn{
+    font-family: pm, sans-serif;
+    font-size: 12px;
+  }
+
+  .twpx{
+    font-family: nsb, sans-serif;
+    font-size: 20px;
+  }
+
+  .nsbhc{
+    font-family: nsb, sans-serif;
+    font-size: 32px;
+  }
+  .nsbkbc{
+    font-family: nsb, sans-serif;
+    font-size: 18px;
+    padding: 1px;
+  }
+  .nsbbc{
+    font-family: nsb, sans-serif;
+    font-size: 16px;
+  }
+  .btngrop{
+    font-family: bop, sans-serif;
+    font-size: 15px;
+    color: #949494;
+  }
+
+
+  .cardrespon{
+  }
+
+  @media (max-width: 768px){
+    .cardrespon{
+      margin: 0px;
+      justify-content: center;
+    }
+  }
+
+  .dividrrespns{
+    margin-top: 20px;
+      width: 403px
+  }
+
+  @media (max-width: 768px){
+    .dividrrespns{
+      margin-top: 20px;
+      width: 75px
+    }
+  }
+
+  .paraimgrespns{
+  }
+
+  @media (max-width: 768px){
+    .paraimgrespns{
+      width: 150px;
+      height: 150px;
+      margin-block-start: 0px;
+      margin-inline-start: 0px;
+    }
+    .ten{
+      font-size: 130%;
+    }
+    .eleven{
+      margin: 20px;
+    }
+    .twelve{
+      margin-left: -30px;
+    }
+  }
+
+  .carouselresp{
+    }
+
+  @media (max-width: 768px){
+    .carouselresp{
+      width: 375px;
+    }
+  }
+
+  /* making card item, card item div, card item image  and buttons responsive */
+  .carditemresp{
+    margin-top: 36px;
+    height: 266px;
+    width: 304px;
+  }
+  @media (max-width: 768px){
+    .carditemresp{
+      margin-top: 36px;
+    height: 266px;
+    width:  94px;
+    }
+  }
+
+  .carditemdivresp{
+    padding-inline: 26px;
+  }
+  @media (max-width: 768px){
+    .carditemdivresp{
+      padding-left: 11px;
+    }
+  }
+
+  @media (max-width: 768px){
+    .carditemimg{
+      width: 49px;
+      height: 49px;
+    }
+  }
+
+  .cardbtnrespleft{
+              width: 65px;
+              height: 40px;
+              background-color: white;
+              top: calc(59% - 30px);
+              opacity: 1;
+              margin-left: -38px;
+  }
+  @media (max-width: 768px){
+    .cardbtnrespleft{
+              width: 25px;
+              height: 40px;
+              background-color: white;
+              top: calc(59% - 30px);
+              opacity: 1;
+              margin-left: -0.5px;
+    }
+  }
+
+  .cardbtnrespright{
+    width: 65px;
+    height: 40px;
+    background-color: white;
+    top: calc(59% - 30px);
+    opacity: 1;
+    margin-right: -38px;
+}
+@media (max-width: 768px){
+.cardbtnrespright{
+    width: 25px;
+    height: 40px;
+    background-color: white;
+    top: calc(59% - 30px);
+    opacity: 1;
+    margin-right: -0.5px;
+}
+}
+
+
+  /* complete page overflow removing */
+  @media (max-width: 768px){
+    .overflowresp{
+      overflow: hidden;
+    }
+  }

@@ -1,0 +1,31 @@
+.frm{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.up{
+    padding: 80px;
+    border-style: dotted;
+    border-width: 2.5px;
+}
+.lbl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h6{
+    background-color: #D3D3D3;
+    border-radius: 4px;
+    width: 100px;
+    text-align: center;
+}
+.iupload{
+    visibility: hidden;
+}
+.sbmtd{
+    float: right;
+    padding-right: 24px;
+}
+.sbmt{
+    background-color: #8f00ff;
+    border-color: #8f00ff;
+}
